@@ -1,0 +1,335 @@
+/*============
+	common css
+=================*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	color: #;
+	line-height: 1.5;
+	
+}
+html{font-size: 62.5%; scroll-behavior: smooth;}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.container{
+	max-width: 96rem;
+	margin: 0 auto;
+	width: 96%;
+}
+
+/*===================
+	Heading menu
+=================*/
+.header_area{
+	background: #290000;
+	border-top: .5rem solid #76c38f;
+	padding: 3rem 0;
+}
+#main_menu{overflow: hidden;}
+.logo_area{
+	max-width: 20rem;
+	float: left;
+}
+.menu_area{
+	float: right;
+}
+.menu_area ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.menu_area ul li{
+	display: inline-block;
+	margin-left: 2rem;
+}
+.menu_area ul li a{
+	color: #fff;
+	font-size: 1.4rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: rgba(118, 195, 143, 0);
+	padding: .5rem;
+	display: block;
+	border-radius: 1rem;
+}
+.menu_area ul li a:hover{
+	background: rgba(118, 195, 143, 1);
+}
+.active{
+	background: rgba(118, 195, 143, 1);
+	border-radius: 1rem;
+}
+/*=====sticky menu=========*/
+.sticky{
+	position: fixed;
+	background: #b02cc1;
+	width: 100%;
+	padding: 1%;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+.sticky .mobile_menu span{top: 0rem;}
+/*===========mobile_menu========*/
+.mobile_menu span{
+	position: absolute;
+	color: #fff;
+	font-size: 4rem;
+	right: 3rem;
+	cursor: pointer;
+	display: none;
+}
+.overlay{
+	background: red;
+	position: fixed;
+	width: 0%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	z-index: 9999;
+}
+.overlay_content{
+	position: relative;
+	top: 15%;
+	text-align: center;	
+} 
+.overlay_content a{
+	color: #fff;
+	font-size: 3rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: .5rem;
+	line-height: 2;
+	display: block;
+	
+}
+.closebtn{
+	position: absolute;
+	color: #fff;
+	font-size: 6rem;
+	right: 3rem;
+	text-decoration: none;
+}
+/*===================
+		mini bar
+=================*/
+#mini_bar{
+	overflow: hidden;
+}
+.child_mini{
+	width: 45%;
+	float: left;
+	padding: 1%;
+}
+.mini_text{
+	width: 80%;
+	margin-top: 10rem;
+}
+.mini_text h1{
+	font-size: 4.6rem;
+	color: #fff;
+	line-height: 1;
+}
+.mini_text p{
+	font-size: 1.5rem;
+	color: #666666;
+	margin: 3rem 0;
+}
+.mini_text a{
+	font-size: 1.4rem;
+	color: #fff;
+	background: #76c38f;
+	text-decoration: none;
+	padding: 1rem;
+	border-radius: .5rem;	
+}
+.mini_image{
+	margin-top: 4rem;
+}
+.mini_image img{
+	width: 35rem;
+	border-radius: 50%;
+	border: 2rem solid #6b6b6b;
+}
+.fa-chevron-left{
+	float: left;
+	text-align: center;
+	font-size: 3rem;
+	color: #76c38f;
+	background: none;
+	margin-top: 20rem;
+    margin-right: 2rem;
+    margin-bottom: 40%;
+}
+.mini_image .fa-chevron-right{
+	float: right;
+	text-align: center;
+	font-size: 3rem;
+	color: #76c38f;
+	margin-top: 20rem;
+}
+/*===================
+	hero_section
+=================*/
+#hero_section{
+	background: #660000;
+	padding: 3rem 0;
+}
+.inner_hero{}
+.child_hero{
+	width: 23%;
+	height: 30rem;
+	float: left;
+	margin: 1%;
+	background: #fff;
+	text-align: center;	
+}.hero2{background: #76c38f;}
+
+.hero_image img{
+	width: 12rem;
+	height: 12rem;
+	margin: 2rem 0;
+}
+.hero_text h1{
+	font-size: 3.2rem;
+	font-weight: normal;
+	line-height: 1;
+}
+.hero_text p{
+	font-size: 1.3rem;
+	line-height: 1.3;
+	width: 80%;
+	margin-left: 10%
+}
+.separator button{
+	background: #303030;
+	font-size: 2rem;
+	color: #fff;
+	border: 0;
+	margin: 2rem 0;
+	padding:1rem;
+	border-radius: .5rem;
+}
+.separator{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	width: 100%;
+}
+.separator::before,
+.separator::after{
+	content: "";
+	flex: 1;
+	border-bottom: .3rem solid
+}
+/*===================
+	work_area
+=================*/
+#work_area{overflow: hidden;}
+.child_work{
+	width: 23%;
+	margin: 1%;
+	float: left;
+}
+.work_image{
+	background: #000;
+	border: .5rem solid #fff;
+}
+.work_image img{
+	width: 29rem;
+	height: 19rem;
+}
+.work_image h1{
+	color: #fff;
+	font-size: 1.4rem;
+	text-align: center;
+}
+.image4{border-color: #76c38f;}
+
+/*===================
+	contact_section
+====================*/
+#contact_section{
+	background: #303030;
+	padding: 4rem 0;
+}
+.inner_contact{overflow: hidden;}
+.child_contact{
+	width: 23%;
+	float: left;
+	padding: 1%;
+}
+.child_contact h1{
+	color: #fff;
+	font-size: 1.4rem;
+	margin-bottom: 2rem;
+}
+.child_contact h3{
+	color: #76c38f;
+	font-size: 1.4rem;
+	margin-bottom: 1rem;
+}
+.child_contact h4{
+	color: #666666;
+	font-size: 1.3rem;
+}
+.child_contact span{
+	color: #76c38f;
+}
+.child_contact p{
+	color: #fff;
+	font-size: 1.4rem;
+	margin-bottom: 2rem;
+}
+.child_contact a{
+	color: #76c38f;
+	font-size: 1.4rem;
+	text-decoration: none;
+	margin-top: 0rem;
+}
+
+.contact_text ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.contact_text ul li{
+	margin-bottom: rem;
+	display: block;
+	background: url(img/next.png) no-repeat center left;
+	padding: 0 0 .5rem 1rem;
+	border-bottom: .2rem solid #666;
+}
+.contact_text ul li a{
+	color: #76c38f
+}
+/*===========contact_form=======*/
+.contact_form form{
+	width: 100%;
+}
+.contact_form form input,
+.contact_form textarea{
+	width: 100%;
+	padding: 3%;
+	margin: .5rem 0;
+	border: 0;
+	background: #222222;
+	border-radius: .5rem;
+}
+.contact_form form ::placeholder {color: #fff;}
+.contact_form form input[type="submit"]{
+	width: 8rem;
+	background: #76c38f;
+	color: #fff;
+}
+
+
+
+
+

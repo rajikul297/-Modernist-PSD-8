@@ -1,0 +1,20 @@
+ 
+@media only screen and (min-width:200px) and (max-width:991px){
+	.mobile_menu span{display: block;}
+	.menu_area ul{display: none;}
+    .mini_text h1 { font-size: 2.6rem;}
+    .mini_image img { width: 20rem;}
+	.child_hero, .child_work { width: 48%;}
+	.hero_image img { width: 20rem; height: 20rem;}
+	.work_image img { width: 45rem; height: 30rem;}
+	#work_area .top_work{
+		padding-bottom: 75rem;border-bottom: .2rem solid #ff0;}
+	.child_contact { width: 80%; margin-left: 10%;} 
+	.child_contact p {  width: 80%;} 
+}
+
+@media only screen and (min-width:200px) and (max-width:480px){
+	.child_hero, .child_work, .child_mini { width: 100%; text-align: center;}
+    .mini_text { margin-left: 10%;}
+	.child_contact {  width: 100%;}
+}
